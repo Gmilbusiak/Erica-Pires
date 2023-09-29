@@ -1,0 +1,56 @@
+body {
+    background-image: url(fundo.png);
+    
+}
+.logo_rodape{
+    display: flex;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 8px;
+    border: solid 1px rgb(255, 255, 255);
+   
+        
+}
+.texto_banner{
+    display: flex;
+    justify-content: left;
+
+}
+
+.imgBanner{
+    background-image: url(banner.png); 
+    height: 40em; 
+    width: 100%;
+    margin: 10px;
+}
+
+
+.alinhamentoCards{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.rodape{
+    background-color: rgb(167, 167, 167);
+    font-size: large; color: #000000;
+}
+.sobre{
+    display: flex;
+}
+.img{
+    border-radius: 50%;
+}
+
+
+@media(max-width: 768px){
+    .sobre{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img{
+        max-width: 100%;
+    }
+}
+
